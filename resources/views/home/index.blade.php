@@ -4,9 +4,10 @@
 
 @section('content')
     <div class="jumbotron" style="margin-top: 50px;">
-        <h1>Bootstrap Tutorial</h1>
-        <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-            responsive, mobile-first projects on the web.</p>
+        <h1>Laravel SB Starter</h1>
+        <p>
+            Laravel starter pack. <a target="_blank" href="https://blackrockdigital.github.io/startbootstrap-sb-admin-2/pages/index.html">SB Admin 2</a> admin panel is integrated on this package.
+        </p>
     </div>
 @stop
 

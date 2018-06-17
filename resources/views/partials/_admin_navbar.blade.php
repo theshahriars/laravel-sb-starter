@@ -16,10 +16,10 @@
             </a>
             <ul class="dropdown-menu dropdown-user">
                 <li>
-                    <a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                    <a href="{{ route('settings.profile') }}"><i class="fa fa-user fa-fw"></i> Update Profile</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                    <a href="{{ route('settings.password') }}"><i class="fa fa-gear fa-fw"></i> Update Password</a>
                 </li>
                 <li class="divider"></li>
                 <li>

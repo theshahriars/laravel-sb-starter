@@ -35,6 +35,9 @@
                     {!! Form::close() !!}
                 </div>
             </div>
+            <div class="row text-center">
+                <a href="{{ route('home.index') }}" class="btn btn-link">Go to Home</a>
+            </div>
         </div>
     </div>
 @endsection

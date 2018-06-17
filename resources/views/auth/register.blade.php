@@ -39,15 +39,18 @@
                         <div class="form-group">
                             <input class="form-control" placeholder="Confirm Password" id="password_confirmation" name="password_confirmation" type="password" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">
-                            {{ __('Register') }}
-                        </button>
                         <a class="btn btn-link" href="{{ route('login') }}">
                             Already a member? Login Here.
                         </a>
+                        <button type="submit" class="btn btn-primary">
+                            {{ __('Register') }}
+                        </button>
                     </fieldset>
                     {!! Form::close() !!}
                 </div>
+            </div>
+            <div class="row text-center">
+                <a href="{{ route('home.index') }}" class="btn btn-link">Go to Home</a>
             </div>
         </div>
     </div>

@@ -35,18 +35,25 @@
                                     </label>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">
-                                {{ __('Login') }}
-                            </button>
-                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-success btn-block">
+                                        {{ __('Login') }}
+                                    </button>
+                                </div>
+                            </div>
+                            <a style="margin-left: 0; padding-left: 0;" class="btn btn-link" href="{{ route('password.request') }}">
                                 Forgot Password?
                             </a>
-                            <a class="btn btn-success" href="{{ route('register') }}">
-                                Register Here
+                            <a style="margin-right: 0; padding-right: 0;" class="btn btn-link pull-right" href="{{ route('register') }}">
+                                Register here.
                             </a>
                         </fieldset>
                     {!! Form::close() !!}
                 </div>
+            </div>
+            <div class="row text-center">
+                <a href="{{ route('home.index') }}" class="btn btn-link">Go to Home</a>
             </div>
         </div>
     </div>

@@ -20,17 +20,17 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        @include('partials._admin_navbar')
-        <div id="page-wrapper">
-            @yield('content')
-        </div>
+<div id="wrapper">
+    @include('partials._master_navbar')
+    <div class="container">
+        @yield('content')
     </div>
-    <script src="{{ url('admin/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ url('admin/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{ url('admin/vendor/metisMenu/metisMenu.min.js') }}"></script>
-    <script src="{{ url('admin/vendor/raphael/raphael.min.js') }}"></script>
-    <script src="{{ url('admin/dist/js/sb-admin-2.js') }}"></script>
-    @yield('script')
+</div>
+<script src="{{ url('admin/vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ url('admin/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ url('admin/vendor/metisMenu/metisMenu.min.js') }}"></script>
+<script src="{{ url('admin/vendor/raphael/raphael.min.js') }}"></script>
+<script src="{{ url('admin/dist/js/sb-admin-2.js') }}"></script>
+@yield('script')
 </body>
 </html>
